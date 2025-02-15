@@ -1,232 +1,311 @@
 export const data = [
-{
-    id:1,
-    name:'Ashish',
-    catagary:'Burger',
-image:'https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹'
+    {
+      id: 1,
+      name: 'Special Burger',
+      category: 'Burger',
+      image:
+        'https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: ' 700',
+      quantity:1
+    },
+    {
+      id: 2,
+      name: 'Cheese Burger',
+      category: 'Burger',
+      image:
+        'https://images.pexels.com/photos/1199960/pexels-photo-1199960.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: '650',
+      quantity:1
 
-},
-{
-    id:2,
-    name:'Ganesh',
-    catagary:'Burger',
-image:'https://images.pexels.com/photos/1199960/pexels-photo-1199960.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹₹'
+    },
+    {
+      id: 3,
+      name: 'Aloo Tikki Burger',
+      category: 'Burger',
+      image:
+        'https://images.pexels.com/photos/1431305/pexels-photo-1431305.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: ' 570',
+      quantity:1
 
-},
-{
-    id:3,
-    name:'Rishabh',
-    catagary:'Burger',
-image:'https://images.pexels.com/photos/3220617/pexels-photo-3220617.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹'
+    },
+    {
+      id: 4,
+      name: 'Cheese Pizza',
+      category: 'Pizza',
+      image:
+        'https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: '620',
+      quantity:1
 
-},
-{
-    id:4,
-    name:'Himanshu',
-    catagary:'Burger',
-image:'https://images.pexels.com/photos/1431305/pexels-photo-1431305.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹₹'
+    },
+    {
+      id: 5,
+      name: 'Veg Pizza',
+      category: 'Pizza',
+      image:
+        'https://images.pexels.com/photos/2714722/pexels-photo-2714722.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: ' 470',
+      quantity:1
 
-},
-{
-    id:5,
-    name:'Ritesh',
-    catagary:'Burger',
-image:'https://images.pexels.com/photos/2983103/pexels-photo-2983103.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹'
+    },
+    {
+      id: 6,
+      name: 'Hariyali Salad',
+      category: 'Salad',
+      image:
+        'https://images.pexels.com/photos/764925/pexels-photo-764925.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: ' 399',
+      quantity:1
 
-},
+    },
+    {
+      id: 7,
+      name: 'Rajma Salad',
+      category: 'Salad',
+      image:
+        'https://images.pexels.com/photos/3323687/pexels-photo-3323687.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: '270',
+      quantity:1
 
-{
-    id:6,
-    name:'Ragesh Singh',
-    catagary:'Pizza',
-image:'https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹₹₹'
+    },
+    {
+      id: 8,
+      name: 'Spicy Salad',
+      category: 'Salad',
+      image:
+        'https://images.pexels.com/photos/1013518/pexels-photo-1013518.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: '250',   
+         quantity:1
 
-},
-{
-    id:7,
-    name:'pinku Singh',
-    catagary:'Pizza',
-image:'https://images.pexels.com/photos/2714722/pexels-photo-2714722.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹₹₹₹'
+    },
+    {
+      id: 9,
+      name: 'Dahi Paratha',
+      category: 'Paratha',
+      image:
+        'https://images.pexels.com/photos/28885201/pexels-photo-28885201/free-photo-of-delicious-indian-paratha-with-chutneys.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: '399',
+      quantity:1
 
-},
-{
-    id:8,
-    name:'Rajgopal ',
-    catagary:'Pizza',
-image:'https://images.pexels.com/photos/375467/pexels-photo-375467.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹₹'
+    },
+    {
+      id: 10,
+      name: 'Cheese Paratha',
+      category: 'Paratha',
+      image:
+        'https://media.istockphoto.com/id/1220187582/photo/stuffed-dal-paratha-with-curd-pickle-and-white-butter.jpg?b=1&s=612x612&w=0&k=20&c=nHualtwJeFn9SZNA4aja3P1DgvOPLZ80vJ5svUsi6hs=',
+      price: '450',
+      quantity:1
 
-},
-{
-    id:9,
-    name:'Shubham',
-    catagary:'Pizza',
-image:'https://images.pexels.com/photos/3762075/pexels-photo-3762075.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹₹'
+    },
+    {
+      id: 11,
+      name: 'Normal Paratha',
+      category: 'Paratha',
+      image:
+        'https://images.pexels.com/photos/12737919/pexels-photo-12737919.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: '599',
+      quantity:1
 
-},
+    },
+    {
+      id: 12,
+      name: 'Special Cold Coffee',
+      category: 'Cold Coffee',
+      image:
+        'https://images.unsplash.com/photo-1571328003758-4a3921661729?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29sZCUyMGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D',
+      price: ' 650',     
+       quantity:1
 
+    },
+    {
+      id: 13,
+      name: 'Ice Cold Coffee',
+      category: 'Cold Coffee',
+      image:
+        'https://images.unsplash.com/photo-1625242662341-5e92c5101338?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNvbGQlMjBjb2ZmZWV8ZW58MHx8MHx8fDA%3D',
+      price: ' 450',
+      quantity:1
 
-{
-    id:10,
-    name:'Pintu SA',
-    catagary:'Salad',
-image:'https://images.pexels.com/photos/764925/pexels-photo-764925.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹₹₹₹'
+    },
+    {
+      id: 14,
+      name: 'Choco Cold Coffee',
+      category: 'Cold Coffee',
+      image:
+        'https://images.unsplash.com/photo-1530373239216-42518e6b4063?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29sZCUyMGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D',
+      price: ' 400',
+      quantity:1
 
-},
-{
-    id:11,
-    name:'Natasa',
-    catagary:'Salad',
-image:'https://images.pexels.com/photos/2862154/pexels-photo-2862154.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹₹₹₹'
+    },
+    {
+      id: 15,
+      name: 'Beetroot Drink',
+      category: 'Drink',
+      image:
+        'https://images.pexels.com/photos/4551975/pexels-photo-4551975.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: ' 299',
+      quantity:1
 
-},
+    },
+    {
+      id: 16,
+      name: 'Strawberry Drink',
+      category: 'Drink',
+      image:
+        'https://images.pexels.com/photos/9009816/pexels-photo-9009816.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: '499',
+      quantity:1
 
-{
-    id:12,
-    name:' Sudhir',
-    catagary:'Salad',
-image:'https://images.pexels.com/photos/3323687/pexels-photo-3323687.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹'
+    },
+    {
+      id: 17,
+      name: 'Special Drink',
+      category: 'Drink',
+      image:
+        'https://images.pexels.com/photos/5946972/pexels-photo-5946972.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: '270',
+      quantity:1
 
-},
-{
-    id:13,
-    name:'Gignesh Sah',
-    catagary:'Salad',
-image:'https://images.pexels.com/photos/1013518/pexels-photo-1013518.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹₹'
+    },
+    {
+      id: 18,
+      name: 'Lychee Drink',
+      category: 'Drink',
+      image:
+        'https://images.pexels.com/photos/19118998/pexels-photo-19118998/free-photo-of-a-yellow-cocktail-with-a-slice-of-kiwi.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: '350',
+      quantity:1
 
-},
-{
-    id:14,
-    name:'Pinuu',
-    catagary:'Salad',
-image:'https://images.pexels.com/photos/1147840/pexels-photo-1147840.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹₹'
+    },
+    {
+      id: 19,
+      name: 'Healthy Drink',
+      category: 'Drink',
+      image:
+        'https://images.pexels.com/photos/4443468/pexels-photo-4443468.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: '400',
+      quantity:1
 
-},
+    },
+    {
+      id: 20,
+      name: 'Special Cold Coffee',
+      category: 'Cold Coffee',
+      image:
+        'https://images.unsplash.com/photo-1620219729343-f5b6d109aa4a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      price: '170',
+      quantity:1
 
+    },
+    {
+      id: 21,
+      name: 'Cheese Pasta',
+      category: 'Pasta',
+      image:
+        'https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhc3RhfGVufDB8fDB8fHww',
+      price: '250',
+      quantity:1
 
-{
-    id:15,
-    name:'Santosh',
-    catagary:'Paratha',
-image:'https://images.pexels.com/photos/10810650/pexels-photo-10810650.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹'
+    },
+    {
+      id: 22,
+      name: 'Vegetable Pasta',
+      category: 'Pasta',
+      image:
+        'https://images.unsplash.com/photo-1617474019977-0e105d1b430e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHBhc3RhfGVufDB8fDB8fHww',
+      price: '300',
+      quantity:1
 
-},
-{
-    id:16,
-    name:'Kamlesh',
-    catagary:'Paratha',
-image:'https://images.pexels.com/photos/28885201/pexels-photo-28885201/free-photo-of-delicious-indian-paratha-with-chutneys.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹₹₹'
+    },
+    {
+      id: 23,
+      name: 'Special Pasta',
+      category: 'Pasta',
+      image:
+        'https://images.pexels.com/photos/2433979/pexels-photo-2433979.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: '199',
+      quantity:1
 
-},
+    },
+    {
+      id: 24,
+      name: 'Top Listed Pasta',
+      category: 'Pasta',
+      image:
+        'https://images.pexels.com/photos/750071/pexels-photo-750071.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: '399',
+      quantity:1
 
+    },
+    {
+      id: 25,
+      name: 'Pav Bhaji',
+      category: 'Other',
+      image:
+        'https://media.gettyimages.com/id/1334105187/photo/delicious-pav-bhaji-served-with-appetizers-on-a-wooden-tray.jpg?s=612x612&w=0&k=20&c=ZoMtJqUWdVAgggtTMV4yIV6F5HzqgsaPOycNd1jmyvE=',
+      price: '170',
+      quantity:1
 
+    },
+    {
+      id: 26,
+      name: 'Pastries',
+      category: 'Other',
+      image:
+        'https://www.foodiesfeed.com/wp-content/uploads/ff-images/2024/12/refreshing-lemon-cheesecake-slice-with-mint-garnish.jpg',
+      price: '170',
+      quantity:1
 
-{
-    id:17,
-    name:'Abahi',
-    catagary:'Paratha',
-image:'https://media.istockphoto.com/id/1413108980/photo/amritsari-kulche-and-chole.jpg?b=1&s=612x612&w=0&k=20&c=G8KOfLAZmyvYCClcAK9cH2PdlWu1OF7BCXFmh0cXGEM=',
-price:'₹₹₹₹'
-
-},
-{
-    id:18,
-    name:'Harsh',
-    catagary:'Paratha',
-image:'https://media.istockphoto.com/id/980049442/photo/stuffed-paneer-paratha-with-melting-butter-served-with-fresh-cottage-cheese-cubes-and-tomato.jpg?b=1&s=612x612&w=0&k=20&c=IiO7jlsBZQOLfO5kO29E8xpxtNP__Db3_WmsEIXMLPo=',
-price:'₹'},
-{
-    id:19,
-    name:'Yogesh',
-    catagary:'Paratha',
-image:'https://media.istockphoto.com/id/1220187582/photo/stuffed-dal-paratha-with-curd-pickle-and-white-butter.jpg?b=1&s=612x612&w=0&k=20&c=nHualtwJeFn9SZNA4aja3P1DgvOPLZ80vJ5svUsi6hs=',
-price:'₹₹'
-
-},
-{
-    id:20,
-    name:'Sourav',
-    catagary:'Paratha',
-image:'https://images.pexels.com/photos/12737919/pexels-photo-12737919.jpeg?auto=compress&cs=tinysrgb&w=600',
-price:'₹'
-
-},
-
-
-
-]
-
-
-export const catagories= [
-{
-    id:1,
-    name:'Fast Food ',
-    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-gsQtQP3cZD9-JXh4Y__KRkVlhUFYzW1aGA&s',
-},
-
-{
-    id:2,
-    name:'Pizza',
-    image:'https://thumbs.dreamstime.com/b/cute-d-icon-pizza-slice-isolated-white-background-d-design-pizza-slice-over-white-background-generative-ai-274501353.jpg',
-},
-
-{
-    id:3,
-    name:'South Indian ',
-    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoqR1xGRU6v7bjXqeId_Tvz67ers0lAgyJvg&s',
-},
-
-{
-    id:4,
-    name:'Paneer ',
-    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU10CMxXSWNxLzxeHVzkqrTT5Afv3Pp-dSDg&s',
-},
-
-
-{
-    id:5,
-    name:'Restaurent Rewards ',
-    image:'data:image/jpeg;base64,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',
-},
-
-{
-    id:6,
-    name:'Latest Deals  ',
-    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI1yaG7SGy8CK6JPfccYuzqFzVKr-2TX42ZQ&s',
-},
-
-{
-    id:7,
-    name:'Fast Delevry   ',
-    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkXONbFcrhsxewn4Ct88jLfhk8KAilQTymng&s',
-},
-
-{
-    id:8,
-    name:'free shiping   ',
-    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf57IMVgiGxYR4346_KzamKisdF3uWtq1gyw&s',
-}
-
-
-]
-
-
-
-
-
-
+    },
+  ];
+  
+  export const categories = [
+    {
+      id: 1,
+      name: 'Fast Food',
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-gsQtQP3cZD9-JXh4Y__KRkVlhUFYzW1aGA&s',
+    },
+    {
+      id: 2,
+      name: 'Pizza',
+      image:
+        'https://thumbs.dreamstime.com/b/cute-d-icon-pizza-slice-isolated-white-background-d-design-pizza-slice-over-white-background-generative-ai-274501353.jpg',
+    },
+    {
+      id: 3,
+      name: 'South Indian',
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoqR1xGRU6v7bjXqeId_Tvz67ers0lAgyJvg&s',
+    },
+    {
+      id: 4,
+      name: 'Paneer',
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU10CMxXSWNxLzxeHVzkqrTT5Afv3Pp-dSDg&s',
+    },
+    {
+      id: 5,
+      name: ' Soft Drinks',
+      image:
+        'https://img.freepik.com/free-psd/blank-soft-drink-cup-isolated-background_1409-3573.jpg?ga=GA1.1.1891485518.1720513974&semt=ais_hybrid',
+    },
+    {
+      id: 6,
+      name: ' Sweets ',
+      image:
+        'https://img.freepik.com/free-psd/sweet-gulab-jamun-white-bowl-delicious-indian-dessert_84443-34333.jpg?ga=GA1.1.1891485518.1720513974&semt=ais_hybrid',
+    },
+    {
+      id: 7,
+      name: ' Momos ',
+      image:
+        'https://img.freepik.com/free-photo/front-view-raw-dumplings-with-meat-inside-dark-surface-dish-color-meal-flour-cooking-pepper-dough-meat_179666-17558.jpg?ga=GA1.1.1891485518.1720513974&semt=ais_hybridd',
+    },
+    {
+      id: 8,
+      name: 'Cold Coffee',
+      image:'https://img.freepik.com/free-photo/vertical-closeup-plastic-cup-cold-coffee-with-vanilla-cream_181624-57827.jpg?ga=GA1.1.1891485518.1720513974&semt=ais_hybrid ',
+    },
+  ];
