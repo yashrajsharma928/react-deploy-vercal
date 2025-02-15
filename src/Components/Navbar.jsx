@@ -83,7 +83,6 @@ const Navbar = () => {
           <NavLink to="/cart">
           <motion.a
             whileHover={{ scale: 1.05, backgroundColor: "#ffffff", color: "#000000" }}
-            href="/Cart"
             className="bg-black hover:bg-white border hover:text-blue-600 hover:border-black text-white px-4 py-2 rounded-[25px] transition-colors duration-300 flex items-center"
           >
             <span className="pr-2 hidden md:flex">Cart</span>
@@ -118,7 +117,7 @@ const Navbar = () => {
                     </li>
                     <li className="text-xl py-4 flex">
                       <TbBrandAppgallery size={25} className="mr-4" />
-                      <NavLink to="/allItems">All Items</NavLink>
+                      <NavLink to="/allitems">All Items</NavLink>
                     </li>
                     <li className="text-xl py-4 flex">
                       <LuShoppingCart size={25} className="mr-4" />

@@ -125,7 +125,7 @@ const Header = () => {
                       </li>
                       <li className="text-xl py-4 flex">
                         <TbBrandAppgallery size={25} className="mr-4" />
-                       <NavLink to='/allItems'> All Items</NavLink>
+                       <NavLink to='/allitems'> All Items</NavLink>
                       </li>
                       <li className="text-xl py-4 flex">
                         <LuShoppingCart size={25} className="mr-4" />
