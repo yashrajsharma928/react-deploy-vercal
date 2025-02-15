@@ -118,6 +118,8 @@ const Footer = () => {
       </div>
 
       {/* Floating Animation */}
+
+      <NavLink to="/cart">
       <motion.div
         initial={{ y: 0 }}
         animate={{ y: [0, -10, 0] }}
@@ -128,6 +130,7 @@ const Footer = () => {
           <BsFillCartFill size={24} className="text-white" />
         </div>
       </motion.div>
+      </NavLink>
     </footer>
   );
 };

@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion"; // Import AnimatePresence
 import { NavLink } from "react-router"; // Corrected import
-import { AiFillTag, AiOutlineClose } from "react-icons/ai";
-import { TbBrandAppgallery, TbTruckDelivery } from "react-icons/tb";
-import { MdFavorite, MdHelp } from "react-icons/md";
-import { FaUserFriends, FaWallet } from "react-icons/fa";
-import { BsFillSaveFill } from "react-icons/bs";
+import {  AiOutlineClose } from "react-icons/ai";
+import { TbBrandAppgallery, TbProgressHelp } from "react-icons/tb";
+
 import { HiMenuAlt2 } from "react-icons/hi";
 import { LuShoppingCart } from "react-icons/lu";
 import { SiAboutdotme } from "react-icons/si";
+import { IoWalletOutline } from "react-icons/io5";
+import { GiThreeFriends } from "react-icons/gi";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -41,7 +41,7 @@ const Header = () => {
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.1, color: "#f472b6" }}
-              href="/about"
+              href="/allitems"
               className="text-white hover:text-pink-400 transition-colors"
             >
               <NavLink to="/allitems">All Items</NavLink>
@@ -56,7 +56,7 @@ const Header = () => {
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.1, color: "#f472b6" }}
-              href="/Aboutus"
+              href="/AboutUs"
               className="text-white hover:text-pink-400 transition-colors"
             >
               <NavLink to="AboutUs"> About Us </NavLink>
@@ -137,15 +137,15 @@ const Header = () => {
                       </li>
                       
                       <li className="text-xl py-4 flex">
-                        <FaWallet size={25} className="mr-4" />
+                        < IoWalletOutline  size={25} className="mr-4" />
                         Wallet
                       </li>
                       <li className="text-xl py-4 flex">
-                        <MdHelp size={25} className="mr-4" />
+                        <TbProgressHelp size={25} className="mr-4" />
                         Help
                       </li>
                       <li className="text-xl py-4 flex">
-                        <FaUserFriends size={25} className="mr-4" />
+                        <GiThreeFriends size={25} className="mr-4" />
                         Invite Friends
                       </li>
                     </ul>
