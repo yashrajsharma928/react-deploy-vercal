@@ -72,13 +72,15 @@ const Navbar = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="flex items-center space-x-4"
         >
+          <NavLink to="/allItems">
           <motion.a
             whileHover={{ scale: 1.05, backgroundColor: "#ffffff", color: "#000000" }}
-            href="/allitems"
             className="bg-black ml-3 md:ml:1 hover:bg-white border hover:text-blue-600 hover:border-black text-white px-4 py-2 rounded-[25px] transition-colors duration-300 flex"
           >
             All <span className="hidden md:flex ml-1">Items</span>
           </motion.a>
+          </NavLink>
+          <NavLink to="/cart">
           <motion.a
             whileHover={{ scale: 1.05, backgroundColor: "#ffffff", color: "#000000" }}
             href="/Cart"
@@ -86,7 +88,7 @@ const Navbar = () => {
           >
             <span className="pr-2 hidden md:flex">Cart</span>
             <BsFillCartFill />
-          </motion.a>
+          </motion.a></NavLink>
         </motion.div>
 
         {/* Mobile Menu Overlay */}
